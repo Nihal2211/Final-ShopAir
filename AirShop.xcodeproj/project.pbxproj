@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8054911C19F506610021C679 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8054901C19F506600021C679 /* Bolts.framework */; };
+		8054911D19F506610021C679 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8054901D19F506600021C679 /* FacebookSDK.framework */; };
+		8054913619F506610021C679 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8054904A19F506600021C679 /* LICENSE */; };
+		8054913719F506610021C679 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8054904B19F506600021C679 /* README.txt */; };
+		805491DE19F6599B0021C679 /* the logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 805491DD19F6599B0021C679 /* the logo.png */; };
+		805491E819F673E00021C679 /* Fashion.png in Resources */ = {isa = PBXBuildFile; fileRef = 805491E719F673E00021C679 /* Fashion.png */; };
+		805491EA19F674460021C679 /* Electronics.png in Resources */ = {isa = PBXBuildFile; fileRef = 805491E919F674460021C679 /* Electronics.png */; };
+		805491EC19F6747D0021C679 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 805491EB19F6747D0021C679 /* Music.png */; };
+		8054930619F688620021C679 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8054901D19F506600021C679 /* FacebookSDK.framework */; };
+		8054933F19F9191B0021C679 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8054933E19F9191B0021C679 /* unchecked.png */; };
+		8054934119F91B5B0021C679 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8054934019F91B5B0021C679 /* checked.png */; };
+		D391654A19F2A5FF0001955B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D391654919F2A5FF0001955B /* main.m */; };
+		D391654D19F2A5FF0001955B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D391654C19F2A5FF0001955B /* AppDelegate.m */; };
+		D391655019F2A5FF0001955B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D391654F19F2A5FF0001955B /* ViewController.m */; };
+		D391655319F2A5FF0001955B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D391655119F2A5FF0001955B /* Main.storyboard */; };
+		D391655519F2A5FF0001955B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D391655419F2A5FF0001955B /* Images.xcassets */; };
+		D391655819F2A5FF0001955B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D391655619F2A5FF0001955B /* LaunchScreen.xib */; };
+		D391656419F2A5FF0001955B /* AirShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D391656319F2A5FF0001955B /* AirShopTests.m */; };
+		D39BE28319F3B08C00EC2F02 /* 1413719912_home-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D39BE28219F3B08C00EC2F02 /* 1413719912_home-128.png */; };
+		D39BE28719F3B13800EC2F02 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D39BE28619F3B13800EC2F02 /* settings.png */; };
+		D39BE28919F3B50A00EC2F02 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D39BE28819F3B50A00EC2F02 /* home.png */; };
+		D39BE28B19F3B54C00EC2F02 /* settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = D39BE28A19F3B54C00EC2F02 /* settings1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D391655E19F2A5FF0001955B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D391653C19F2A5FF0001955B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D391654319F2A5FF0001955B;
+			remoteInfo = AirShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8054901C19F506600021C679 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8054901D19F506600021C679 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		8054904A19F506600021C679 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8054904B19F506600021C679 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		805491DD19F6599B0021C679 /* the logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "the logo.png"; path = "../../the logo.png"; sourceTree = "<group>"; };
+		805491E719F673E00021C679 /* Fashion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fashion.png; path = "../../ Senior Project/Fashion.png"; sourceTree = "<group>"; };
+		805491E919F674460021C679 /* Electronics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Electronics.png; path = "../../ Senior Project/Electronics.png"; sourceTree = "<group>"; };
+		805491EB19F6747D0021C679 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Music.png; path = "../../ Senior Project/Music.png"; sourceTree = "<group>"; };
+		8054930719F8F9240021C679 /* preferencePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = preferencePageController.h; sourceTree = "<group>"; };
+		8054933E19F9191B0021C679 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = "../../ Senior Project/unchecked.png"; sourceTree = "<group>"; };
+		8054934019F91B5B0021C679 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = "../../ Senior Project/checked.png"; sourceTree = "<group>"; };
+		D391654419F2A5FF0001955B /* AirShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D391654819F2A5FF0001955B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D391654919F2A5FF0001955B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D391654B19F2A5FF0001955B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D391654C19F2A5FF0001955B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D391654E19F2A5FF0001955B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D391654F19F2A5FF0001955B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D391655219F2A5FF0001955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D391655419F2A5FF0001955B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D391655719F2A5FF0001955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D391655D19F2A5FF0001955B /* AirShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D391656219F2A5FF0001955B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D391656319F2A5FF0001955B /* AirShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirShopTests.m; sourceTree = "<group>"; };
+		D39BE28219F3B08C00EC2F02 /* 1413719912_home-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1413719912_home-128.png"; sourceTree = "<group>"; };
+		D39BE28619F3B13800EC2F02 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		D39BE28819F3B50A00EC2F02 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		D39BE28A19F3B54C00EC2F02 /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D391654119F2A5FF0001955B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8054930619F688620021C679 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D391655A19F2A5FF0001955B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8054911C19F506610021C679 /* Bolts.framework in Frameworks */,
+				8054911D19F506610021C679 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8054901B19F506600021C679 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8054901C19F506600021C679 /* Bolts.framework */,
+				8054901D19F506600021C679 /* FacebookSDK.framework */,
+				8054904A19F506600021C679 /* LICENSE */,
+				8054904B19F506600021C679 /* README.txt */,
+			);
+			name = FacebookSDK;
+			path = ../../../Documents/FacebookSDK;
+			sourceTree = "<group>";
+		};
+		D391653B19F2A5FF0001955B = {
+			isa = PBXGroup;
+			children = (
+				D391654619F2A5FF0001955B /* AirShop */,
+				D391656019F2A5FF0001955B /* AirShopTests */,
+				D391654519F2A5FF0001955B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D391654519F2A5FF0001955B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D391654419F2A5FF0001955B /* AirShop.app */,
+				D391655D19F2A5FF0001955B /* AirShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D391654619F2A5FF0001955B /* AirShop */ = {
+			isa = PBXGroup;
+			children = (
+				D391654B19F2A5FF0001955B /* AppDelegate.h */,
+				D391654C19F2A5FF0001955B /* AppDelegate.m */,
+				D391654E19F2A5FF0001955B /* ViewController.h */,
+				8054930719F8F9240021C679 /* preferencePageController.h */,
+				D391654F19F2A5FF0001955B /* ViewController.m */,
+				D391655419F2A5FF0001955B /* Images.xcassets */,
+				D391655119F2A5FF0001955B /* Main.storyboard */,
+				D391655619F2A5FF0001955B /* LaunchScreen.xib */,
+				D391654719F2A5FF0001955B /* Supporting Files */,
+			);
+			path = AirShop;
+			sourceTree = "<group>";
+		};
+		D391654719F2A5FF0001955B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8054933E19F9191B0021C679 /* unchecked.png */,
+				8054934019F91B5B0021C679 /* checked.png */,
+				805491EB19F6747D0021C679 /* Music.png */,
+				805491E919F674460021C679 /* Electronics.png */,
+				805491E719F673E00021C679 /* Fashion.png */,
+				805491DD19F6599B0021C679 /* the logo.png */,
+				D39BE28A19F3B54C00EC2F02 /* settings1.png */,
+				D39BE28819F3B50A00EC2F02 /* home.png */,
+				D39BE28619F3B13800EC2F02 /* settings.png */,
+				D39BE28219F3B08C00EC2F02 /* 1413719912_home-128.png */,
+				D391654819F2A5FF0001955B /* Info.plist */,
+				D391654919F2A5FF0001955B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D391656019F2A5FF0001955B /* AirShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				D391656319F2A5FF0001955B /* AirShopTests.m */,
+				D391656119F2A5FF0001955B /* Supporting Files */,
+			);
+			path = AirShopTests;
+			sourceTree = "<group>";
+		};
+		D391656119F2A5FF0001955B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8054901B19F506600021C679 /* FacebookSDK */,
+				D391656219F2A5FF0001955B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D391654319F2A5FF0001955B /* AirShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D391656719F2A5FF0001955B /* Build configuration list for PBXNativeTarget "AirShop" */;
+			buildPhases = (
+				D391654019F2A5FF0001955B /* Sources */,
+				D391654119F2A5FF0001955B /* Frameworks */,
+				D391654219F2A5FF0001955B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirShop;
+			productName = AirShop;
+			productReference = D391654419F2A5FF0001955B /* AirShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D391655C19F2A5FF0001955B /* AirShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D391656A19F2A5FF0001955B /* Build configuration list for PBXNativeTarget "AirShopTests" */;
+			buildPhases = (
+				D391655919F2A5FF0001955B /* Sources */,
+				D391655A19F2A5FF0001955B /* Frameworks */,
+				D391655B19F2A5FF0001955B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D391655F19F2A5FF0001955B /* PBXTargetDependency */,
+			);
+			name = AirShopTests;
+			productName = AirShopTests;
+			productReference = D391655D19F2A5FF0001955B /* AirShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D391653C19F2A5FF0001955B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CMU;
+				TargetAttributes = {
+					D391654319F2A5FF0001955B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D391655C19F2A5FF0001955B = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D391654319F2A5FF0001955B;
+					};
+				};
+			};
+			buildConfigurationList = D391653F19F2A5FF0001955B /* Build configuration list for PBXProject "AirShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = D391653B19F2A5FF0001955B;
+			productRefGroup = D391654519F2A5FF0001955B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D391654319F2A5FF0001955B /* AirShop */,
+				D391655C19F2A5FF0001955B /* AirShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D391654219F2A5FF0001955B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BE28B19F3B54C00EC2F02 /* settings1.png in Resources */,
+				805491DE19F6599B0021C679 /* the logo.png in Resources */,
+				D391655319F2A5FF0001955B /* Main.storyboard in Resources */,
+				8054934119F91B5B0021C679 /* checked.png in Resources */,
+				D39BE28719F3B13800EC2F02 /* settings.png in Resources */,
+				805491E819F673E00021C679 /* Fashion.png in Resources */,
+				D391655819F2A5FF0001955B /* LaunchScreen.xib in Resources */,
+				D39BE28319F3B08C00EC2F02 /* 1413719912_home-128.png in Resources */,
+				805491EC19F6747D0021C679 /* Music.png in Resources */,
+				D39BE28919F3B50A00EC2F02 /* home.png in Resources */,
+				D391655519F2A5FF0001955B /* Images.xcassets in Resources */,
+				8054933F19F9191B0021C679 /* unchecked.png in Resources */,
+				805491EA19F674460021C679 /* Electronics.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D391655B19F2A5FF0001955B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8054913719F506610021C679 /* README.txt in Resources */,
+				8054913619F506610021C679 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D391654019F2A5FF0001955B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D391655019F2A5FF0001955B /* ViewController.m in Sources */,
+				D391654D19F2A5FF0001955B /* AppDelegate.m in Sources */,
+				D391654A19F2A5FF0001955B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D391655919F2A5FF0001955B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D391656419F2A5FF0001955B /* AirShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D391655F19F2A5FF0001955B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D391654319F2A5FF0001955B /* AirShop */;
+			targetProxy = D391655E19F2A5FF0001955B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D391655119F2A5FF0001955B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D391655219F2A5FF0001955B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D391655619F2A5FF0001955B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D391655719F2A5FF0001955B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D391656519F2A5FF0001955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D391656619F2A5FF0001955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D391656819F2A5FF0001955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/fadwaali/Documents/FacebookSDK\"";
+				INFOPLIST_FILE = AirShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D391656919F2A5FF0001955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/fadwaali/Documents/FacebookSDK\"";
+				INFOPLIST_FILE = AirShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D391656B19F2A5FF0001955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					/Users/fadwaali/Documents/FacebookSDK,
+					/Users/fadwaali/Documents/FacebookSDK/FBAudienceNetwork,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirShop.app/AirShop";
+			};
+			name = Debug;
+		};
+		D391656C19F2A5FF0001955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					/Users/fadwaali/Documents/FacebookSDK,
+					/Users/fadwaali/Documents/FacebookSDK/FBAudienceNetwork,
+				);
+				INFOPLIST_FILE = AirShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirShop.app/AirShop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D391653F19F2A5FF0001955B /* Build configuration list for PBXProject "AirShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D391656519F2A5FF0001955B /* Debug */,
+				D391656619F2A5FF0001955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D391656719F2A5FF0001955B /* Build configuration list for PBXNativeTarget "AirShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D391656819F2A5FF0001955B /* Debug */,
+				D391656919F2A5FF0001955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D391656A19F2A5FF0001955B /* Build configuration list for PBXNativeTarget "AirShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D391656B19F2A5FF0001955B /* Debug */,
+				D391656C19F2A5FF0001955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D391653C19F2A5FF0001955B /* Project object */;
+}

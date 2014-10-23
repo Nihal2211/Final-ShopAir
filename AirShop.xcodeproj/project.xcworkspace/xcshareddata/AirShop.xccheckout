@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7A9EF60D-5715-44C8-B56C-96B7E4CE07CA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AirShop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B575F000801888CD609486698082F1221941AC8A</key>
+		<string>https://github.com/Nihal2211/AirShop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AirShop.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B575F000801888CD609486698082F1221941AC8A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Nihal2211/AirShop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B575F000801888CD609486698082F1221941AC8A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B575F000801888CD609486698082F1221941AC8A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AirShop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
