@@ -14,7 +14,7 @@
                     <rect key="frame" x="51" y="131" width="199" height="199"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.93308423910000005" green="0.93308423910000005" blue="0.93308423910000005" alpha="1" colorSpace="calibratedRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="548" y="455"/>

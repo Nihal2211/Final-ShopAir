@@ -53,6 +53,48 @@
                                     <segue destination="rDE-Gp-tlU" kind="modal" identifier="PreferencePage" id="xOE-rC-dz2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="laz-5A-bEN">
+                                <rect key="frame" x="11" y="29" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OvR-BM-xhR">
+                                <rect key="frame" x="11" y="0.0" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cxi-CB-ePU">
+                                <rect key="frame" x="48" y="28" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lei-No-C12">
+                                <rect key="frame" x="68" y="0.0" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="52o-wP-Sut">
+                                <rect key="frame" x="87" y="29" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XYv-kN-MEQ">
+                                <rect key="frame" x="120" y="-2" width="44" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -60,16 +102,20 @@
                     <navigationItem key="navigationItem" id="Kas-GD-WP5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="lblBeaconFound" destination="cxi-CB-ePU" id="YcU-Rn-zxv"/>
                         <outlet property="lblEmail" destination="VaI-Gd-nqZ" id="MRF-80-jzo"/>
                         <outlet property="lblLoginStatus" destination="CQE-eM-4ac" id="iEY-K8-NbJ"/>
+                        <outlet property="lblUUID" destination="XYv-kN-MEQ" id="jCW-yJ-Ubh"/>
                         <outlet property="lblUsername" destination="w4K-S9-Bhl" id="4ZH-Qa-IX1"/>
+                        <outlet property="lbltext1" destination="52o-wP-Sut" id="j60-d9-gji"/>
+                        <outlet property="lbltext2" destination="laz-5A-bEN" id="jnP-Q5-BAM"/>
                         <outlet property="loginButton" destination="iV7-F8-Sp6" id="uZF-bf-ZuX"/>
                         <outlet property="profilePicture" destination="qbX-wW-Hxc" id="Z9P-Wt-0Ph"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1687" y="118"/>
+            <point key="canvasLocation" x="1718" y="196"/>
         </scene>
         <!--Preference page-->
         <scene sceneID="TnX-g5-eBf">
@@ -79,15 +125,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prefrences" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n2K-3K-Rto">
-                                <rect key="frame" x="115" y="93" width="94" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preferences" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n2K-3K-Rto">
+                                <rect key="frame" x="115" y="93" width="101" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.14827518200000001" blue="0.29659901490000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fashion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UZf-ME-6wM">
-                                <rect key="frame" x="81" y="203" width="49" height="21"/>
+                                <rect key="frame" x="81" y="234" width="49" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -100,22 +146,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Shopping Acc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fdg-qE-lxD">
-                                <rect key="frame" x="198" y="347" width="99" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Souvenir" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fdg-qE-lxD">
+                                <rect key="frame" x="204" y="347" width="61" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electronics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M5V-c5-MOY">
-                                <rect key="frame" x="204" y="203" width="85" height="21"/>
+                                <rect key="frame" x="204" y="234" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fashion.png" id="rMr-EK-3SQ">
-                                <rect key="frame" x="66" y="144" width="56" height="56"/>
+                                <rect key="frame" x="66" y="175" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Music.png" id="YXy-KJ-P2r">
@@ -123,7 +169,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Electronics.png" id="cVC-ie-BHI">
-                                <rect key="frame" x="196" y="145" width="56" height="56"/>
+                                <rect key="frame" x="196" y="176" width="56" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the logo.png" id="IEy-by-eme">
@@ -131,9 +177,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8P9-yr-qxh">
-                                <rect key="frame" x="67" y="418" width="198" height="30"/>
+                                <rect key="frame" x="116" y="418" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Save changes , Done Editing">
+                                <state key="normal" title="Save changes ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -141,7 +187,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yNo-iw-FKf">
-                                <rect key="frame" x="56" y="202" width="17" height="22"/>
+                                <rect key="frame" x="56" y="233" width="17" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="unchecked.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -151,7 +197,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bed-AV-7nX">
-                                <rect key="frame" x="180" y="203" width="17" height="22"/>
+                                <rect key="frame" x="180" y="234" width="17" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="unchecked.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -181,8 +227,13 @@
                                 <connections>
                                     <action selector="CheckBox1Action:" destination="rDE-Gp-tlU" eventType="touchUpInside" id="rqs-q4-HRt"/>
                                     <action selector="CheckBox3Action:" destination="rDE-Gp-tlU" eventType="touchUpInside" id="Y5A-0I-qKS"/>
+                                    <action selector="CheckBox4Action:" destination="rDE-Gp-tlU" eventType="touchUpInside" id="Dhi-nM-J4A"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Souvenir.png" id="KwO-78-u7T">
+                                <rect key="frame" x="196" y="291" width="56" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -190,7 +241,7 @@
                     <connections>
                         <outlet property="CheckBox1" destination="yNo-iw-FKf" id="izF-FM-e16"/>
                         <outlet property="CheckBox2" destination="bed-AV-7nX" id="DZK-P1-Lo7"/>
-                        <outlet property="CheckBox3" destination="dba-3H-ECM" id="soD-Uy-4aQ"/>
+                        <outlet property="CheckBox3" destination="KbR-sW-EHP" id="M2u-rH-Uq8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M0L-s8-QuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -224,8 +275,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Meet the future of Retail Applications!" textAlignment="center" id="Btc-MJ-eRn">
+                                <rect key="frame" x="71" y="178" width="179" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93308423910000005" green="0.93308423910000005" blue="0.93308423910000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.15294118230000001" green="0.1647058874" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the logo.png" id="Z2h-jU-bJX">
+                                <rect key="frame" x="74" y="30" width="147" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsVerticalScrollIndicator="NO" id="VuA-M4-NWB">
-                                <rect key="frame" x="-287" y="248" width="895" height="190"/>
+                                <rect key="frame" x="-4" y="253" width="895" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This application will give you all the latest deals and discounts going on in HIA, based on what you like!" textAlignment="center" id="7A0-dt-0BJ">
@@ -267,18 +330,6 @@
                                     </label>
                                 </subviews>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Meet the future of Retail Applications!" textAlignment="center" id="Btc-MJ-eRn">
-                                <rect key="frame" x="71" y="178" width="179" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93308423910000005" green="0.93308423910000005" blue="0.93308423910000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.15294118230000001" green="0.1647058874" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the logo.png" id="Z2h-jU-bJX">
-                                <rect key="frame" x="74" y="30" width="147" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93308423910000005" green="0.93308423910000005" blue="0.93308423910000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -294,6 +345,7 @@
         <image name="Electronics.png" width="1200" height="1200"/>
         <image name="Fashion.png" width="1200" height="1200"/>
         <image name="Music.png" width="1200" height="1200"/>
+        <image name="Souvenir.png" width="1200" height="1200"/>
         <image name="home.png" width="22" height="22"/>
         <image name="settings1.png" width="22" height="22"/>
         <image name="the logo.png" width="732" height="632"/>

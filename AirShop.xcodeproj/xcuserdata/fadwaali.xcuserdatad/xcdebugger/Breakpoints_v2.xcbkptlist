@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AirShop/ViewController.m"
-            timestampString = "435761847.552363"
+            timestampString = "435764091.094364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "-CheckBox2Action:"
             landmarkType = "5">
          </BreakpointContent>
