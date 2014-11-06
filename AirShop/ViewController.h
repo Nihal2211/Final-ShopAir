@@ -27,10 +27,14 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *CheckBox2;
 - (IBAction)CheckBox2Action:(id)sender;
+
 @property (weak, nonatomic) IBOutlet UIButton *CheckBox3;
 - (IBAction)CheckBox3Action:(id)sender;
+
+
 @property (weak, nonatomic) IBOutlet UIButton *CheckBox4;
 - (IBAction)CheckBox4Action:(id)sender;
+
 
 @property (weak, nonatomic) IBOutlet FBLoginView *loginButton;
 

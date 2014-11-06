@@ -5,23 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7A9EF60D-5715-44C8-B56C-96B7E4CE07CA</string>
+	<string>063A8205-4F63-4940-8920-3E014445903F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AirShop</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EB800F4A48BBCFADD9E34337CBAF7FCA88D7DED8</key>
-		<string>https://github.com/Nihal2211/AirShop.git</string>
+		<string>https://github.com/Nihal2211/Final-ShopAir.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AirShop.xcodeproj</string>
+	<string>AirShop.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EB800F4A48BBCFADD9E34337CBAF7FCA88D7DED8</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Nihal2211/AirShop.git</string>
+	<string>https://github.com/Nihal2211/Final-ShopAir.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
